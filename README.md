@@ -119,7 +119,7 @@ function checkAnswerRewardUser(questionStatement, correctAnswer){
 }
 ```
 
-### ex09: function to check the answer
+### ex09: print your name 5 times
 
 Done!
 
@@ -130,8 +130,15 @@ name = 'PratyushGupta'
 for (let count = 0; count < 5; count++){
   console.log(name)
 }
+```
 
-homework
+### homework: star pattern
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
 function printStars(){
   var numberInput = readlineSync.question('Please input your number: ')
   numberInputInt = parseInt(numberInput)
