@@ -154,3 +154,16 @@ function printStars(){
 
 printStars()
 ```
+
+### ex10: list grocery items to buy
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var shoppingCartArray = ['Milk', 'Eggs', 'Bread', 'Biscuits', 'Butter']
+console.log(shoppingCartArray[0])
+console.log(shoppingCartArray[2])
+console.log(shoppingCartArray[shoppingCartArray.length - 1])
+```
