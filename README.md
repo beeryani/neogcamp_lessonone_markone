@@ -167,3 +167,16 @@ console.log(shoppingCartArray[0])
 console.log(shoppingCartArray[2])
 console.log(shoppingCartArray[shoppingCartArray.length - 1])
 ```
+
+### ex11: print every item on the list
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var shoppingCartArray = ['Milk', 'Eggs', 'Bread', 'Biscuits', 'Butter']
+for (let i = 0; i < shoppingCartArray.length; i++){
+  console.log(shoppingCartArray[i])
+}
+```
