@@ -3,6 +3,8 @@
 
 [Link to REPL](https:replit.com/@PratyushGupta2/LessonOne#index.js)
 
+## markOne: quiz app
+
 ### ex01: output your name
 
 Done!
@@ -194,7 +196,7 @@ const superheroDict = {
 console.log(superheroDict.superman)
 ```
 
-### ex13: put a list of questions together && ex14: club everything to make the game
+### ex13: put a list of questions together && ex14: club everything to make the game && ex15: print the final score to the user
 
 Done!
 
