@@ -17,6 +17,19 @@ Done!
 
 ```node
 var readlineSync = require('readline-sync');
+
 var userName = readlineSync.question('May I have your name? ');
 console.log(userName);
+```
+
+### ex03: welcome your user && ex04: do it all together
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var userName = readlineSync.question('May I have your name? ');
+console.log(userName);
+console.log('Swagatam ' + userName + '!');
 ```
