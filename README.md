@@ -67,3 +67,21 @@ else{
 console.log('Sorry, current score: ' + favCity + ' ' +counter);
 }
 ```
+
+### ex07: function to add two numbers
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var numberOne = readlineSync.question('enter first number: ');
+var numberTwo = readlineSync.question('enter second number: ');
+
+function add(numberOne, numberTwo){
+  return parseInt(numberOne) + parseInt(numberTwo)
+}
+
+var outputNumber = add(numberOne, numberTwo)
+console.log('Hey! Your answer is: ' + outputNumber)
+```
