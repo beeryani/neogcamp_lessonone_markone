@@ -1,7 +1,7 @@
 # neoGcamp: LessonOne
 > Repository for LessonOne of levelZero of neoGcamp
 
-[Link to REPL](https:replit.com/@PratyushGupta2/LessonOne#index.js)
+[Link to REPL](https://replit.com/@PratyushGupta2/LessonOne#index.js)
 
 ## markOne: quiz app
 
