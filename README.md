@@ -180,3 +180,16 @@ for (let i = 0; i < shoppingCartArray.length; i++){
   console.log(shoppingCartArray[i])
 }
 ```
+
+### ex12: club info about a superhero together
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+const superheroDict = {
+  superman: 'batman'
+}
+console.log(superheroDict.superman)
+```
