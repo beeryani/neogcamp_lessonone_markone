@@ -118,3 +118,32 @@ function checkAnswerRewardUser(questionStatement, correctAnswer){
   }
 }
 ```
+
+### ex09: function to check the answer
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+name = 'PratyushGupta'
+for (let count = 0; count < 5; count++){
+  console.log(name)
+}
+
+homework
+function printStars(){
+  var numberInput = readlineSync.question('Please input your number: ')
+  numberInputInt = parseInt(numberInput)
+  
+  for (let i = numberInputInt; i < numberInputInt + 1; i++){
+    var s = "";
+    for (let j = 0; j < i; j++){
+      s += "*" + " ";
+      console.log(s)
+    }
+  }
+}
+
+printStars()
+```
