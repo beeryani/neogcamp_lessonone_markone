@@ -39,11 +39,31 @@ console.log('Swagatam ' + userName + '!');
 Done!
 
 ```node
+var readlineSync = require('readline-sync');
+
 var userAge = readlineSync.question('May I have your Age? ');
 if (userAge >= 21){
 console.log('Right!');
 }
 else{
 console.log('Wrong :/');
+}
+```
+
+### ex06: increment score if the right answer
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var favCity = readlineSync.question('May I know your favourite city? ');
+var counter = 0
+if(favCity == 'Lucknow'){
+counter++
+console.log('Hurray, your current score: ' + favCity + ' ' + counter);
+}
+else{
+console.log('Sorry, current score: ' + favCity + ' ' +counter);
 }
 ```
