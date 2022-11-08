@@ -85,3 +85,36 @@ function add(numberOne, numberTwo){
 var outputNumber = add(numberOne, numberTwo)
 console.log('Hey! Your answer is: ' + outputNumber)
 ```
+
+### ex08: function to check the answer
+
+Done!
+
+```node
+var readlineSync = require('readline-sync');
+
+var questionStatement01 = 'What\'s the capital of India? '
+var correctAnswer01 = 'New Delhi'
+
+var questionStatement02 = 'What\'s the national anthem of India? '
+var correctAnswer02 = 'Jan Gan Mana'
+
+let userScore = 0
+
+checkAnswerRewardUser(questionStatement01, correctAnswer01);
+checkAnswerRewardUser(questionStatement02, correctAnswer02);
+
+
+function checkAnswerRewardUser(questionStatement, correctAnswer){
+  var userAnswer = readlineSync.question(questionStatement)
+                                           
+  if (correctAnswer == userAnswer){
+    userScore++;
+    console.log('Hurray! You earned a point, your current score: ' + userScore);
+  }
+  else{
+    userScore--;
+    console.log('Sorry! Wrong Answer, your current score: ' + userScore)
+  }
+}
+```
